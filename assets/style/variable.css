@@ -1,0 +1,52 @@
+:root {
+  /**
+    主色
+    */
+  /* // 主色渐变 */
+  --theme-main-gradient-dcb795: linear-gradient(121deg,
+      #dcb795 0%,
+      #f6d188 100%);
+  /* // 主调色 */
+  --theme-main-753c06: #753c06;
+  /* // 辅助渐变 */
+  --theme-main-sub-gradient-fe5d5d: linear-gradient(225deg,
+      #fe5d5d 0%,
+      #feaa5d 100%);
+  /* // 辅助色 */
+  --theme-main-sub-fffcf4: #fffcf4;
+  /**
+    中性色
+    */
+
+  /* // 黑色 */
+  --theme-neutral-000000: #000000;
+  /* // 文字色，指主文字1 */
+  --theme-neutral-n1-323233: #323233;
+  /* // 文字色，指主文字2 */
+  --theme-neutral-n2-646566: #646566;
+  /* // 文字色，指辅助、说明文字 */
+  --theme-neutral-n3-969799: #969799;
+  /* // 失效文字 */
+  --theme-neutral-n4-bbbdbf: #bbbdbf;
+  /* // 边框、线色-深 */
+  --theme-neutral-n5-d5d6d9: #d5d6d9;
+  /* // 边框、线色-浅 */
+  --theme-neutral-n6-ebedf0: #ebedf0;
+  /* // 背景色-深 */
+  --theme-neutral-n7-f5f6f7: #f5f6f7;
+  /* // 背景色-浅 */
+  --theme-neutral-n8-F8F9FA: #f8f9fa;
+  /* // 白色 */
+  --theme-neutral-n8-FFFFFF: #ffffff;
+  --theme-neutral-n9-EDF3FF: #edf3ff;
+
+  /**
+    Function 功能色
+    */
+  /* // 危险色 */
+  --theme-function-danger-FF5C5E: #ff5c5e;
+
+  --van-badge-background: var(--theme-function-danger-FF5C5E);
+  --van-nav-bar-background: var(--theme-neutral-n8-F8F9FA);
+  --van-primary-color: #753C06;
+}
